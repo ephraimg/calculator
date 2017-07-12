@@ -1,4 +1,4 @@
-This is a JavaScript calculator with these features:
+This is a JavaScript calculator with several features:
 
 - Obeys PEMDAS
 - Allows user to store/retrieve numbers or expressions in displayed memory slots
