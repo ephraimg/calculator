@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="utf-8"/>
+<link rel="stylesheet" type="text/css" href="calculatorStyle.css"> 
+<script type="text/javascript" src="calculatorScript.js"></script>
+</head>
+
+<body>
+
+
+<header>
+<div><p id="label"> JavaScript PEMDAS calculator with expandable memory</p></div>
+<hr>
+</header>
+
+<div id="container">
+  <div id="calcBody">
+  <div id="display"> </div>
+  <div id="keys">
+    <input type="button" value="1" id="key1"></input> 
+    <input type="button" value="2" id="key2"></input> 
+    <input type="button" value="3" id="key3"></input> 
+    <input type="button" value="+" id="keyPlus"></input> <br>
+    <input type="button" value="4" id="key4"></input> 
+    <input type="button" value="5" id="key5"></input> 
+    <input type="button" value="6" id="key6"></input> 
+    <input type="button" value="-" id="keyMinus"></input> <br>
+    <input type="button" value="7" id="key7"></input> 
+    <input type="button" value="8" id="key8"></input> 
+    <input type="button" value="9" id="key9"></input> 
+    <input type="button" value="*" id="keyMult"></input> <br>
+    <input type="button" value="0" id="key0"></input>  
+    <input type="button" value="." id="keyDot"></input> 
+    <input type="button" value="C" id="keyClear"></input>
+    <input type="button" value="/" id="keyDiv"></input> <br>
+    <input type="button" value="(" id="keyLPar"></input> 
+    <input type="button" value=")" id="keyRPar"></input> 
+    <input type="button" value="^" id="keyExp"></input> 
+    <input type="button" value="=" id="keyEquals"></input> 
+  </div>
+  </div>
+
+  <div id="memory">
+    <p id="memorySlot1">Memory 1</p>
+    <input type="button" id="storeButton1" value="Store"></input> 
+    <input type="button" id="retrieveButton1" value="Retrieve"></input> 
+    <p id="memorySlot2">Memory 2</p>
+    <input type="button" id="storeButton2" value="Store"></input> 
+    <input type="button" id="retrieveButton2" value="Retrieve"></input>
+
+    <div id="addMemoryDiv">
+      <input type="button" id="addMemorySlot" value="+"></input> 
+    </div>
+  </div>
+
+
+</div>
+
+
+ 
+</body>
+</html>
